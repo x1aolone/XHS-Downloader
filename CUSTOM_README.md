@@ -5,7 +5,9 @@
 
 fc 使用方式: 
 
-1. 拉取代码 git clone https://github.com/x1aolone/XHS-Downloader.git
+1. 拉取代码
+   1. 首次拉取 git clone https://github.com/x1aolone/XHS-Downloader.git
+   2. 后续更新 cd ./XHS-Downloader 然后 git pull --no-rebase
 2. 在 fc 上安装依赖的时候需要使用 pip install -t . -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 
 本地使用方式:
