@@ -7,3 +7,11 @@ fc 使用方式:
 
 1. 拉取代码 git clone https://github.com/x1aolone/XHS-Downloader.git
 2. 在 fc 上安装依赖的时候需要使用 pip install -t . -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+
+本地使用方式:
+1. python -m venv .venv
+2. source .venv/bin/activate
+2. pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+3. 运行
+   1. 测试的话运行 python example.py 
+   2. 服务器模式运行: python main.py api
